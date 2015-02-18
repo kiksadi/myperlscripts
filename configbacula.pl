@@ -78,7 +78,7 @@ print OUTFILE "  Name = ${servername}-fd\n";
 print OUTFILE "  Address = $servername\n";
 print OUTFILE "  FDPort = 9102\n";
 print OUTFILE "  Catalog = MyCatalog\n";
-print OUTFILE "  Password = \"parann0yed\"          \# password for FileDaemon\n";
+print OUTFILE "  Password = \"somepassword\"          \# password for FileDaemon\n";
 
 print "\tHow long will the files be saved? ";
         chomp ($fileretention=<STDIN>);
