@@ -5,7 +5,7 @@ $another = 'y';
 
 while ($another eq 'y'){
 
-my $result = "/etc/bacula/backups.txt";
+my $result = "backups.txt";
 my $outputFile=">$result";
 
 open (OUTFILE,$outputFile) || die $!; #name of results file
